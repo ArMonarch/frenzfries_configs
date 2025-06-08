@@ -1,3 +1,2 @@
-require("frenzfries_nvim")
-
--- require("d70m_nvim.config.lazy")
+-- bootstrap lazy.nvim, LazyVim and your plugins
+require("Lazy_nvim.config.lazy")

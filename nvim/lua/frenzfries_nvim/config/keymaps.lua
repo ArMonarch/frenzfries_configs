@@ -3,6 +3,7 @@ vim.keymap.set("n", "<leader>pv", vim.cmd.Ex, { desc = "Open File Explorer" })
 
 -- ctrl s for save in vim
 vim.keymap.set("n", "<C-s>", ":w<CR>", { noremap = true, silent = false })
+vim.keymap.set("i", "<C-s>", "<Esc>:w<CR>", { noremap = true, silent = false })
 
 -- pane and window navigation
 vim.keymap.set("n", "<C-h>", "<C-w>h", { noremap = true, silent = true })
